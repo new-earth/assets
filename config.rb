@@ -11,13 +11,15 @@
 # Page options, layouts, aliases and proxies
 ###
 
+set :layout, 'sections'
+
 # Per-page layout changes:
 #
 # With no layout
 # page "/path/to/file.html", :layout => false
 #
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+page "/splash.html", :layout => :splash
 #
 # A path which all have the same layout
 # with_layout :admin do
