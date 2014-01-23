@@ -11,5 +11,5 @@ gem "middleman-livereload", "~> 3.1.0"
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 gem 'bourbon'
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
-# gem 'font-awesome-rails'
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', require: false
+# gem 'font-awesome-rails', github: 'bokmann/font-awesome-rails', tag: 'v4.0.3.1'
